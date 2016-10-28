@@ -1,19 +1,14 @@
 function divide(num) {
-  num /= 4;
-  return num;
+  return num /= 4;
 }
 
 function multiply(num) {
-  num *= 3;
-  return num;
+  return num *= 3;
 }
 
 
 function add(num) {
-  num += 50;
-  return num;
+  return num += 50;
 }
 
 divide(multiply(add(4)));
-
-console.log(divide(multiply(add(4))));
