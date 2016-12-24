@@ -6,7 +6,6 @@ function multiply(num) {
   return num *= 3;
 }
 
-
 function add(num) {
   return num += 50;
 }
